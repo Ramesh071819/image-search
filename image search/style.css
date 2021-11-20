@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.Container{
+  text-align: center;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 15px;
+  box-shadow: 0 10px 100px -10px;
+}
+
+.input{
+  padding: 10px;
+  border: 1px solid;
+  width: 40%;
+  margin-left: 25%;
+  font-size: 1.5rem;
+}
+
+
+#search-button{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+ 
+
+}
+
+.display-images{
+  width: 80%;
+  border-radius: 5px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+  grid-gap:30px;
+  padding: 2px;
+}
+
+.display-images img {
+  width: 80%;
+  border-radius: 5px;
+  height: 240px;
+  cursor: pointer;
+}
+
+
+.show-more{
+  margin: 0 auto;
+  display: block;
+  float: right;
+  background-color: aqua;
+}
+
+.made-width {
+  text-align: center;
+  padding: 20px;
+}
+
+.img{
+  width: 50%;
+  height: 50%;
+}
+
+.card{
+  text-align: center;
+  background-color: white;
+  width:140px;
+  border-radius: 9px;
+  padding: 16px;
+  margin: 15px;
+}
+
+.card-image{
+  height: 100px;
+  width: 100px;
+
+}
